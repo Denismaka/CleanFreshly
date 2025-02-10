@@ -209,6 +209,24 @@
       </div>
     </div>
   </section>
+
+  <!-- ################  -->
+  <!-- Témoignages  -->
+  <!-- ################  -->
+  <section class="témoignages" id="témoignages">
+    <div class="heading">
+      <h4>Témoignages</h4>
+      <h2>ce que disent nos clients</h2>
+      <p>Découvrez les témoignages de nos clients satisfaits qui partagent leurs expériences positives avec nos services.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatem placeat harum minima iusto consequuntur. Modi magnam, vitae, illo deleniti inventore doloremque rem ea placeat, sunt eligendi suscipit qui dolor!</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
