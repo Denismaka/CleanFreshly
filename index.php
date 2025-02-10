@@ -204,7 +204,19 @@
           </div>
         </div>
         <div class="col-md-6">
-          <p>Fournisseur de services de nettoyage professionnel</p>
+          <div class="contact-form">
+            <form action="">
+              <input type="text" placeholder="Your Name" />
+              <input type="email" name="" id="" placeholder="Enter Your Email..." />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Write Your Message Here... "></textarea>
+              <input type="button" value="Send" class="contact-button" />
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -227,6 +239,10 @@
       </div>
     </div>
   </section>
+
+  <!-- ################  -->
+  <!-- Footer  -->
+  <!-- ################  -->
 </body>
 
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
