@@ -150,6 +150,32 @@
   <!-- ################  -->
   <!-- Blog  -->
   <!-- ################  -->
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <i class="fas fa-water"></i>
+          <h6>plomberie</h6>
+          <p>Nous offrons des services de plomberie pour assurer le bon fonctionnement de vos installations sanitaires.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-tools"></i>
+          <h6>réparation</h6>
+          <p>Nos services de réparations couvrent une large gamme de besoins pour maintenir votre équipement en parfait état.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-sun"></i>
+          <h6>ressort</h6>
+          <p>Nous proposons des services saisonniers pour préparer votre maison au printemps, en optimisant son entretien.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-hammer"></i>
+          <h6>charpentier</h6>
+          <p>Nos charpentiers qualifiés réalisent des travaux de menuiserie sur mesure pour embellir votre espace.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
