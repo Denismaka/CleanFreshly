@@ -8,18 +8,30 @@ Le projet est actuellement en cours de développement, et nous sommes ravis de p
 
 ## Fonctionnalités
 
-- Service de nettoyage résidentiel
-- Options de nettoyage commercial
-- Réservation en ligne
-- Gestion des avis clients
-- Section FAQ
+**Formulaire de demande d'avis** : Permet aux clients de soumettre leurs avis et retours sur les services reçus. 
+Les avis sont cruciaux pour améliorer la qualité du service et renforcer la crédibilité.
+
+**Planification de services récurrents** : Les clients peuvent programmer des nettoyages réguliers
+(hebdomadaires, bihebdomadaires, mensuels, etc.) selon leurs besoins. Cela simplifie la vie des clients et favorise leur fidélité.
+
+**Options de nettoyage personnalisées** : Les clients peuvent choisir des services spécifiques selon leurs préférences, 
+tels que le nettoyage en profondeur ou le nettoyage de tapis. Cela montre que nous tenons compte des besoins individuels des clients.
+
+**Inscription des utilisateurs** : Les clients peuvent créer un compte pour gérer leurs informations, réservations et préférences.
+Cela facilite la gestion des clients et permet d'offrir une expérience personnalisée.
+
+**Newsletter avec des conseils de nettoyage** : Les clients peuvent s'inscrire à une newsletter qui leur envoie régulièrement des conseils et astuces de nettoyage. 
+Cela maintient un lien avec les clients et renforce notre expertise.
 
 ## Technologies Utilisées
 
 - HTML
 - CSS
 - Bootstrap
-- scrollreveal
+- ScrollReveal
 - JavaScript
-- Php
+- PHP
+
+
+
 
