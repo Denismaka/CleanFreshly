@@ -176,6 +176,39 @@
       </div>
     </div>
   </section>
+
+  <!-- ################  -->
+  <!-- Contact  -->
+  <!-- ################  -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Fournisseur de services de nettoyage professionnel</p>
+          <div class="row">
+            <div class="col-md-4">
+              <i class="fas fa-phone"></i>
+              <h6>téléphone</h6>
+              <span>+243997435030</span>
+            </div>
+            <div class="col-md-4">
+              <i class="fas fa-envelope"></i>
+              <h6>email</h6>
+              <span>denisamore703@gmail</span>
+            </div>
+            <div class="col-md-4">
+              <i class="fas fa-clock"></i>
+              <h6>heures d'ouverture</h6>
+              <span>10h à 18h</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p>Fournisseur de services de nettoyage professionnel</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
