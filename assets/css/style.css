@@ -13,37 +13,6 @@
   --white: #fff;
   --orange: #b77100;
 }
-/*section-title */
-.section-title {
-  position: relative;
-  color: var(--blue);
-  font-size: 2.2rem;
-  font-weight: 800;
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-.section-title::before {
-  content: '';
-  position: absolute;
-  top: 56px;
-  left: 47.5rem;
-  width: 220px;
-  height: 5px;
-  background-color: var(--orange);
-  transform: translateX(-50%);
-}
-.section-title::after {
-  content: '';
-  position: absolute;
-  top: 51px;
-  left: 50%;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: var(--blue);
-  transform: translateX(-50%);
-}
 
 /* ################  */
 /* Header   */
@@ -312,4 +281,39 @@ textarea {
 #contact .container .row .col-md-6:last-child .copyright {
   padding: 20px;
   text-align: center;
+}
+
+/* ############## */
+/* Témoignages */
+/* ############## */
+#témoignages {
+  padding: 5rem;
+}
+/*section-title */
+#témoignages .section-title {
+  position: relative;
+  color: var(--black);
+  margin-bottom: 60px;
+  text-align: center;
+}
+#témoignages .section-title::before {
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: 42rem;
+  width: 220px;
+  height: 5px;
+  background-color: var(--orange);
+  transform: translateX(-50%);
+}
+#témoignages .section-title::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--black);
+  transform: translateX(-50%);
 }
