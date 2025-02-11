@@ -34,25 +34,41 @@
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active" style="height: 100vh;">
-          <img src="/assets/images/banner-01.jpg" class="d-block w-100" alt="...">
+          <img src="/assets/images/banner-01.jpg" class="d-block w-100" alt="..." style="filter: brightness(90%);">
+          <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 0; left: 0; transform: translate(0, 0);">
+            <h1>Rapide et efficace</h1>
+            <h2>Le choix supérieur pour le nettoyage commercial</h2>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="/assets/images/banner-02.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-item" style="height: 100vh;">
+          <img src="/assets/images/banner-02.jpg" class="d-block w-100" alt="..." style="filter: brightness(50%);">
+          <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 0; left: 0; transform: translate(0, 0);">
+            <h1>Fiabilité et qualité</h1>
+            <h2>Des services de nettoyage adaptés à vos besoins</h2>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="/assets/images/banner-03.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-item" style="height: 100vh;">
+          <img src="/assets/images/banner-03.jpg" class="d-block w-100" alt="..." style="filter: brightness(50%);">
+          <div class="carousel-caption d-none d-md-block" style="position: absolute; top: 0; left: 0; transform: translate(0, 0);">
+            <h1>Engagement envers l'environnement</h1>
+            <h2>Solutions de nettoyage écologiques</h2>
+          </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span class="visually-hidden">Précédent</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span class="visually-hidden">Suivant</span>
       </button>
     </div>
   </section>
+
+
+
+
 
   <!-- ################  -->
   <!-- subhome  -->
@@ -262,8 +278,10 @@
           </div>
         </div>
         <div class="swiper-pagination"></div>
-        <div class="swiper-slide-button swiper-button-prev"></div>
-        <div class="swiper-slide-button swiper-button-next"></div>
+        <div class="swiper-slide-button swiper-button-prev" style=" top: 65%; transform: translateY(50%);"></div>
+
+
+        <div class="swiper-slide-button swiper-button-next" style=" top: 65%; transform: translateY(50%);"></div>
       </div>
     </div>
   </section>
