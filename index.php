@@ -221,10 +221,10 @@
   <!-- Témoignages  -->
   <!-- ################  -->
   <section class="témoignages" id="témoignages">
-    <div class="heading">
-      <h4>Témoignages</h4>
-      <h2>ce que disent nos clients</h2>
-      <p>Découvrez les témoignages de nos clients satisfaits qui partagent leurs expériences positives avec nos services.</p>
+    <div class="section-title">
+      <h4 class="text-uppercase fw-bold fs-3">Témoignages</h4>
+      <h2 class="text-capitalize pt-4 fw-bold">ce que disent nos clients</h2>
+      <p class="fs-5">Découvrez les témoignages de nos clients satisfaits qui partagent leurs expériences positives avec nos services.</p>
     </div>
     <div class="container">
       <div class="row">
