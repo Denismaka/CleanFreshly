@@ -104,7 +104,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h3>Nous fournissons des services de haute qualité.</h3>
+          <h3 class="text-capitalize fw-bold pt-5">nous fournissons des services de haute qualité.</h3>
         </div>
         <div class="col-md-4">
           <h3>CleanFreshly propose des services variés, incluant travaux électriques, peinture, déplacement de meubles, installation de machines à laver et cuisines modulables.</h3>
@@ -116,27 +116,27 @@
       <div class="row">
         <div class="col-md-2">
           <i class="fas fa-bolt"></i>
-          <h6>Travail électrique</h6>
+          <h6 class="pt-4 fw-semibold">Travail électrique</h6>
         </div>
         <div class="col-md-2">
           <i class="fas fa-paint-roller"></i>
-          <h6>Travaux de peinture</h6>
+          <h6 class="pt-4 fw-semibold">Travaux de peinture</h6>
         </div>
         <div class="col-md-2">
           <i class="fas fa-arrows-alt"></i>
-          <h6>Déplacement de meubles</h6>
+          <h6 class="pt-4 fw-semibold">Déplacement de meubles</h6>
         </div>
         <div class="col-md-2">
-          <i class="fas fa-washer"></i>
-          <h6>Machine à laver</h6>
+          <i class="fas fa-paint-roller"></i>
+          <h6 class="pt-4 fw-semibold">Machine à laver</h6>
         </div>
         <div class="col-md-2">
           <i class="fas fa-utensils"></i>
-          <h6>MCuisine modulable</h6>
+          <h6 class="pt-4 fw-semibold">MCuisine modulable</h6>
         </div>
         <div class="col-md-2">
           <i class="fas fa-broom"></i>
-          <h6>Nettoyage de tapis</h6>
+          <h6 class="pt-4 fw-semibold">Nettoyage de tapis</h6>
         </div>
       </div>
     </div>
