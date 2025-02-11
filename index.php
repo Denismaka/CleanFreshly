@@ -149,23 +149,23 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <i class="fas fa-water"></i>
-          <h6>plomberie</h6>
+          <i class="fas fa-water text-primary pb-4"></i>
+          <h6 class="text-capitalize fw-bold">plomberie</h6>
           <p>Nous offrons des services de plomberie pour assurer le bon fonctionnement de vos installations sanitaires.</p>
         </div>
         <div class="col-md-3">
-          <i class="fas fa-tools"></i>
-          <h6>réparation</h6>
+          <i class="fas fa-tools text-primary pb-4"></i>
+          <h6 class="text-capitalize fw-bold">réparation</h6>
           <p>Nos services de réparations couvrent une large gamme de besoins pour maintenir votre équipement en parfait état.</p>
         </div>
         <div class="col-md-3">
-          <i class="fas fa-sun"></i>
-          <h6>ressort</h6>
+          <i class="fas fa-sun text-primary pb-4"></i>
+          <h6 class="text-capitalize fw-bold">ressort</h6>
           <p>Nous proposons des services saisonniers pour préparer votre maison au printemps, en optimisant son entretien.</p>
         </div>
         <div class="col-md-3">
-          <i class="fas fa-hammer"></i>
-          <h6>charpentier</h6>
+          <i class="fas fa-hammer text-primary pb-4"></i>
+          <h6 class="text-capitalize fw-bold">charpentier</h6>
           <p>Nos charpentiers qualifiés réalisent des travaux de menuiserie sur mesure pour embellir votre espace.</p>
         </div>
       </div>
