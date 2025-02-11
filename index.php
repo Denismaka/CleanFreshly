@@ -279,8 +279,6 @@
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-slide-button swiper-button-prev" style=" top: 65%; transform: translateY(50%);"></div>
-
-
         <div class="swiper-slide-button swiper-button-next" style=" top: 65%; transform: translateY(50%);"></div>
       </div>
     </div>
