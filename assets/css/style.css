@@ -9,7 +9,7 @@
 
 :root {
   --black: #000;
-  --blue: ##3a6cf4;
+  --blue: #3a6cf4;
   --white: #fff;
   --orange: #b77100;
 }
@@ -242,4 +242,28 @@ textarea {
 #about .container .row .col-md-6:last-child .btn:hover {
   background-color: var(--black);
   transition: 0.5 ease-in-out;
+}
+
+/* ############## */
+/* Services */
+/* ############## */
+#services {
+  background-color: #c6d4f9;
+}
+#services .container .row {
+  margin-top: 7rem;
+  padding: 20px;
+}
+#services .container .row:first-child {
+  padding-top: 8rem;
+}
+#services .container .row:last-child i {
+  color: #fc5552;
+  font-size: 2rem;
+}
+#services .container .row:last-child h6 {
+  color: var(--black);
+}
+#services .container .row:last-child {
+  padding-bottom: 50px;
 }
