@@ -229,3 +229,17 @@ textarea {
 /* ############## */
 /* About */
 /* ############## */
+#about .container .row .col-md-6:last-child h6 {
+  color: var(--orange);
+}
+#about .container .row .col-md-6:last-child .btn {
+  background-color: var(--orange);
+  color: var(--white);
+  margin-top: 0.7rem;
+  padding: 15px;
+  border-radius: 50px;
+}
+#about .container .row .col-md-6:last-child .btn:hover {
+  background-color: var(--black);
+  transition: 0.5 ease-in-out;
+}
