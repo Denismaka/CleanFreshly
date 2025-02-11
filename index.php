@@ -87,11 +87,11 @@
         <div class="col-md-6">
           <img src="/assets/images/about.jpg" class="rounded img-fluid" alt="">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 py-5">
           <h6>Bienvenue chez Nettoyage Express</h6>
-          <h3> À propos de notre entreprise</h3>
+          <h3 class="text-capitalize fw-bold"> À propos de notre entreprise</h3>
           <p>Chez <span>Nettoyage Express</span>, nous sommes passionnés par la propreté et le bien-être de nos clients. Fondée sur des valeurs d'excellence et de fiabilité, notre entreprise s'engage à fournir des services de nettoyage de haute qualité pour les espaces résidentiels et commerciaux.Notre équipe est composée de professionnels expérimentés, formés aux dernières techniques et utilisant des produits écologiques. Nous croyons que chaque environnement mérite d'être propre et sain, et nous travaillons sans relâche pour dépasser les attentes de nos clients. Que vous ayez besoin d'un nettoyage régulier ou d'un service ponctuel, CleanFreshly est votre partenaire de confiance pour un espace impeccable.</p>
-          <a href="#" class="btn">lire la suite</a>
+          <a href="#" class="btn">En savoir plus</a>
         </div>
       </div>
     </div>
