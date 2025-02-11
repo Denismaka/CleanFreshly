@@ -65,7 +65,7 @@
           <h4 class="pt-4 text-capitalize fw-bold">meilleure qualité</h4>
           <p>Nous nous engageons à offrir un service de nettoyage de la meilleure qualité, avec un souci du détail inégalé. Chaque intervention utilise des produits écologiques pour garantir un environnement sain.</p>
         </div>
-        <div class="col-md-4 shadow p-5 bg-warning text-dark  hover-effect">
+        <div class="col-md-4 shadow p-5  text-dark  hover-effect">
           <i class="fas fa-comments shadow p-3 bg-white text-primary rounded "></i>
           <h4 class="pt-4 text-capitalize fw-bold">conseils d'experts</h4>
           <p>Nos experts en nettoyage fournissent des conseils personnalisés pour répondre à vos besoins spécifiques. Avec leur expérience, ils vous aident à optimiser la propreté de vos espaces.</p>
@@ -150,22 +150,22 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <i class="fas fa-water text-primary pb-4"></i>
+          <i class="fas fa-water pb-4"></i>
           <h6 class="text-capitalize fw-bold">plomberie</h6>
           <p>Nous offrons des services de plomberie pour assurer le bon fonctionnement de vos installations sanitaires.</p>
         </div>
         <div class="col-md-3">
-          <i class="fas fa-tools text-primary pb-4"></i>
+          <i class="fas fa-tools pb-4"></i>
           <h6 class="text-capitalize fw-bold">réparation</h6>
           <p>Nos services de réparations couvrent une large gamme de besoins pour maintenir votre équipement en parfait état.</p>
         </div>
         <div class="col-md-3">
-          <i class="fas fa-sun text-primary pb-4"></i>
+          <i class="fas fa-sun pb-4"></i>
           <h6 class="text-capitalize fw-bold">ressort</h6>
           <p>Nous proposons des services saisonniers pour préparer votre maison au printemps, en optimisant son entretien.</p>
         </div>
         <div class="col-md-3">
-          <i class="fas fa-hammer text-primary pb-4"></i>
+          <i class="fas fa-hammer pb-4"></i>
           <h6 class="text-capitalize fw-bold">charpentier</h6>
           <p>Nos charpentiers qualifiés réalisent des travaux de menuiserie sur mesure pour embellir votre espace.</p>
         </div>
@@ -221,21 +221,6 @@
   <!-- ################  -->
   <!-- Témoignages  -->
   <!-- ################  -->
-  <!-- <section class="témoignages" id="témoignages">
-    <div class="section-title">
-      <h4 class="text-uppercase fw-bold fs-3">Témoignages</h4>
-      <h2 class="text-capitalize pt-4 fw-bold">ce que disent nos clients</h2>
-      <p class="fs-4">Découvrez les témoignages de nos clients satisfaits qui partagent leurs expériences positives avec nos services.</p>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatem placeat harum minima iusto consequuntur. Modi magnam, vitae, illo deleniti inventore doloremque rem ea placeat, sunt eligendi suscipit qui dolor!</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <section class="témoignages" id="témoignages">
     <div class="container swiper">
       <div class="section-title">
@@ -290,13 +275,13 @@
     <div class="container">
       <footer class="py-5">
         <div class="row">
-          <div class="col-md-6">Nettoyage<span>Express</span></div>
+          <div class="col-md-6"><a href="#" class="text-decoration-none text-white fs-3 mx-3">Nettoyage <span>Express</span></a></div>
           <div class="col-md-6">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="text-white fs-3 mx-3"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white fs-3 mx-3"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="text-white fs-3 mx-3"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="text-white fs-3 mx-3"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="text-white fs-3 mx-3"><i class="fa-brands fa-instagram"></i></a>
           </div>
           <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
             <div class="container">
@@ -327,12 +312,12 @@
 
           <div class="col-md-5 offset-md-1 mb-3">
             <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
+              <h5>Abonnez-vous à notre newsletter.</h5>
+              <p>Résumé mensuel de ce qui est nouveau et excitant chez nous.</p>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">Email address</label>
                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn btn-warning" type="button"><a href="#" class="text-decoration-none text-white">Subscribe</a></button>
+                <button class="btn " type="button"><a href="#" class="text-decoration-none text-white">Subscribe</a></button>
               </div>
             </form>
           </div>
