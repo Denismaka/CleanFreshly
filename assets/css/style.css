@@ -23,7 +23,7 @@ header {
   background: rgba(255, 255, 255, 0.1);
   top: 0;
   left: 0;
-  background-color: var(--orange);
+  background-color: var(--black);
   width: 100%;
   padding: 15px 200px;
   display: flex;
@@ -32,7 +32,7 @@ header {
   transition: 0.5s ease;
 }
 header.sticky {
-  background-color: var(--black);
+  background-color: var(--orange);
   color: var(--white);
   padding: 10px 200px;
 }
@@ -48,8 +48,11 @@ header .navigation {
   display: flex;
   padding-top: 1rem;
 }
+header span {
+  color: var(--blue);
+}
 header .navigation .active {
-  background-color: var(--black);
+  background-color: var(--blue);
   color: var(--white);
   padding: 10px 25px;
   border-radius: 5px;
@@ -139,6 +142,9 @@ header.sticky .navigation li a:hover {
 #subhome .container .row .col-md-4 i {
   font-size: 3rem;
 }
+#subhome .container .row .col-md-4:nth-child(2) {
+  background-color: var(--blue);
+}
 #subhome .container .row .hover-effect {
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -154,14 +160,14 @@ header.sticky .navigation li a:hover {
   color: var(--orange);
 }
 #about .container .row .col-md-6:last-child .btn {
-  background-color: var(--orange);
+  background-color: var(--blue);
   color: var(--white);
   margin-top: 0.7rem;
   padding: 15px;
   border-radius: 50px;
 }
 #about .container .row .col-md-6:last-child .btn:hover {
-  background-color: var(--black);
+  background-color: var(--orange);
   transition: 0.5 ease-in-out;
 }
 
@@ -179,7 +185,7 @@ header.sticky .navigation li a:hover {
   padding-top: 8rem;
 }
 #services .container .row:last-child i {
-  color: #fc5552;
+  color: var(--orange);
   font-size: 2rem;
 }
 #services .container .row:last-child h6 {
@@ -199,6 +205,7 @@ header.sticky .navigation li a:hover {
 }
 #blog .container .row .col-md-3 i {
   font-size: 2rem;
+  color: var(--orange);
 }
 
 /* ############## */
@@ -210,7 +217,7 @@ header.sticky .navigation li a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   height: 80vh;
 }
 #contact .container .row .col-md-6:first-child {
@@ -265,7 +272,7 @@ textarea {
   .contact-button {
   font-weight: 500;
   color: #fff;
-  background: var(--black);
+  background: var(--blue);
   cursor: pointer;
 }
 #contact
@@ -384,4 +391,19 @@ textarea {
 }
 #témoignages .slider-wrapper .swiper-slide-button:hover {
   color: var(--blue);
+}
+
+/* ############## */
+/* Témoignages */
+/* ############## */
+footer .btn {
+  background-color: var(--blue);
+}
+footer .btn:hover {
+  background-color: var(--orange);
+}
+footer .col-md-6 span {
+  color: var(--orange);
+}
+footer .col-md-6:nth-child(2) {
 }
