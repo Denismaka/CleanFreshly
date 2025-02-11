@@ -179,21 +179,21 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <p>Fournisseur de services de nettoyage professionnel</p>
+          <p class="fw-bold text-capitalize text-white">Fournisseur de services de nettoyage professionnel</p>
           <div class="row">
-            <div class="col-md-4">
-              <i class="fas fa-phone"></i>
-              <h6>téléphone</h6>
+            <div class="col-md-4 shadow bg-white text-center">
+              <i class="fas fa-phone fs-2 pb-3"></i>
+              <h6 class="text-capitalize fw-bold">téléphone</h6>
               <span>+243997435030</span>
             </div>
-            <div class="col-md-4">
-              <i class="fas fa-envelope"></i>
-              <h6>email</h6>
+            <div class="col-md-4 shadow bg-white text-center">
+              <i class="fas fa-envelope fs-2 pb-3"></i>
+              <h6 class="text-capitalize fw-bold">email</h6>
               <span>denisamore703@gmail</span>
             </div>
-            <div class="col-md-4">
-              <i class="fas fa-clock"></i>
-              <h6>heures d'ouverture</h6>
+            <div class="col-md-4 shadow bg-white text-center">
+              <i class="fas fa-clock fs-2 pb-3"></i>
+              <h6 class="text-capitalize fw-bold">heures d'ouverture</h6>
               <span>10h à 18h</span>
             </div>
           </div>
@@ -201,15 +201,15 @@
         <div class="col-md-6">
           <div class="contact-form">
             <form action="">
-              <input type="text" placeholder="Your Name" />
-              <input type="email" name="" id="" placeholder="Enter Your Email..." />
+              <input type="text" placeholder="Nom" />
+              <input type="email" name="" id="" placeholder="Adress mail" />
               <textarea
                 name=""
                 id=""
                 cols="30"
                 rows="10"
-                placeholder="Write Your Message Here... "></textarea>
-              <input type="button" value="Send" class="contact-button" />
+                placeholder="Écrivez votre message ici..."></textarea>
+              <input type="button" value="Envoyer" class="contact-button" />
             </form>
           </div>
         </div>
