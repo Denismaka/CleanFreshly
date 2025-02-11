@@ -205,3 +205,27 @@ textarea {
   padding: 20px;
   text-align: center;
 }
+
+/* ############## */
+/* subhome */
+/* ############## */
+#subhome .container .row {
+  position: relative;
+  text-align: center;
+  padding: 100px;
+  margin-top: -200px;
+}
+#subhome .container .row .col-md-4 i {
+  font-size: 3rem;
+}
+#subhome .container .row .hover-effect {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#subhome .container .row .hover-effect:hover {
+  transform: scale(1.05);
+}
+
+/* ############## */
+/* About */
+/* ############## */
