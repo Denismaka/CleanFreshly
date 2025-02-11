@@ -129,7 +129,11 @@ header.sticky .navigation li a:hover {
     transition: 0.3 ease;
   }
 }
-
+#home .carousel-caption {
+  margin-top: 17rem;
+}
+#home .carousel-caption h1 {
+}
 /* ############## */
 /* subhome */
 /* ############## */
@@ -404,6 +408,4 @@ footer .btn:hover {
 }
 footer .col-md-6 span {
   color: var(--orange);
-}
-footer .col-md-6:nth-child(2) {
 }
