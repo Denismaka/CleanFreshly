@@ -32,7 +32,7 @@
   <section class="home" id="home">
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" style="height: 100vh;">
           <img src="/assets/images/banner-01.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
@@ -59,19 +59,19 @@
   <section class="subhome" id="subhome">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <i class="fas fa-star"></i>
-          <h4>Meilleure qualité</h4>
+        <div class="col-md-4 shadow bg-white p-5 hover-effect">
+          <i class="fas fa-star shadow p-3 bg-primary text-white rounded "></i>
+          <h4 class="pt-4 text-capitalize fw-bold">meilleure qualité</h4>
           <p>Nous nous engageons à offrir un service de nettoyage de la meilleure qualité, avec un souci du détail inégalé. Chaque intervention utilise des produits écologiques pour garantir un environnement sain.</p>
         </div>
-        <div class="col-md-4">
-          <i class="fas fa-comments"></i>
-          <h4>Conseils d'experts</h4>
+        <div class="col-md-4 shadow p-5 bg-warning text-dark  hover-effect">
+          <i class="fas fa-comments shadow p-3 bg-white text-primary rounded "></i>
+          <h4 class="pt-4 text-capitalize fw-bold">conseils d'experts</h4>
           <p>Nos experts en nettoyage fournissent des conseils personnalisés pour répondre à vos besoins spécifiques. Avec leur expérience, ils vous aident à optimiser la propreté de vos espaces.</p>
         </div>
-        <div class="col-md-4">
-          <i class="fas fa-tools"></i>
-          <h4>Expertise en main-d'œuvre</h4>
+        <div class="col-md-4 shadow bg-white p-5 hover-effect">
+          <i class="fas fa-tools shadow p-3 bg-primary text-white rounded "></i>
+          <h4 class="pt-4 text-capitalize fw-bold">expertise en main-d'œuvre</h4>
           <p>Notre équipe de professionnels qualifiés assure des résultats impeccables dans tous les aspects du nettoyage. Nous croyons en la formation continue pour garantir les meilleures pratiques.</p>
         </div>
       </div>
@@ -242,7 +242,17 @@
     <div class="container">
       <footer class="py-5">
         <div class="row">
+          <div class="col-md-6">Nettoyage<span>Express</span></div>
+          <div class="col-md-6">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
           <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <div class="container">
+            </div>
           </div>
           <div class="col-6 col-md-3 mb-3">
             <h5>Liens</h5>
@@ -299,7 +309,7 @@
   </footer>
 </body>
 
-<script src="/assets/scrollreveal/dist/scrollreveal.min.js"></script>
+<!-- <script src="/assets/scrollreveal/dist/scrollreveal.min.js"></script> -->
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/Js/app.js"></script>
 
