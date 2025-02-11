@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/font/css/all.min.css">
+  <link rel="stylesheet" href="/assets/swiper/package/swiper-bundle.css">
   <title>Nettoyage Express</title>
 </head>
 
@@ -220,17 +221,64 @@
   <!-- ################  -->
   <!-- Témoignages  -->
   <!-- ################  -->
-  <section class="témoignages" id="témoignages">
+  <!-- <section class="témoignages" id="témoignages">
     <div class="section-title">
       <h4 class="text-uppercase fw-bold fs-3">Témoignages</h4>
       <h2 class="text-capitalize pt-4 fw-bold">ce que disent nos clients</h2>
-      <p class="fs-5">Découvrez les témoignages de nos clients satisfaits qui partagent leurs expériences positives avec nos services.</p>
+      <p class="fs-4">Découvrez les témoignages de nos clients satisfaits qui partagent leurs expériences positives avec nos services.</p>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatem placeat harum minima iusto consequuntur. Modi magnam, vitae, illo deleniti inventore doloremque rem ea placeat, sunt eligendi suscipit qui dolor!</p>
         </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="témoignages" id="témoignages">
+    <div class="container swiper">
+      <div class="section-title">
+        <h4 class="text-uppercase fw-bold fs-3">Témoignages</h4>
+        <h2 class="text-capitalize pt-4 fw-bold">ce que disent nos clients</h2>
+        <p class="fs-4">Découvrez les témoignages de nos clients satisfaits qui partagent leurs expériences positives avec nos services.</p>
+      </div>
+      <div class="slider-wrapper">
+        <div class="card-list swiper-wrapper">
+          <div class="card-item swiper-slide">
+            <img src="/assets/images/avis-01.jpg" alt="user image" class="user-image" />
+            <p class="user-profession">Justinette</p>
+            <span class="message-boutton"></span>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="/assets/images/avis-02.jpg" alt="user image" class="user-image" />
+            <p class="user-profession">Josuella Sm</p>
+            <span class="message-boutton"></span>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="/assets/images/avis-03.jpg" alt="user image" class="user-image" />
+            <p class="user-profession">Gloriana dasilva</p>
+            <span class="message-boutton"></span>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="/assets/images/avis-04.jpg" alt="user image" class="user-image" />
+            <p class="user-profession">Henock kaba</p>
+            <span class="message-boutton"></span>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="/assets/images/avis-05.jpg" alt="user image" class="user-image" />
+            <p class="user-profession">Daniel boxl</p>
+            <span class="message-boutton"></span>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="/assets/images/avis-06.jpg" alt="user image" class="user-image" />
+            <p class="user-profession">Kelly kzd</p>
+            <span class="message-boutton"></span>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
       </div>
     </div>
   </section>
@@ -309,8 +357,9 @@
   </footer>
 </body>
 
-<!-- <script src="/assets/scrollreveal/dist/scrollreveal.min.js"></script> -->
+<script src="/assets/swiper/package/swiper-bundle.min.js"></script>
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/Js/script.js"></script>
 <script src="/assets/Js/app.js"></script>
 
 </html>
