@@ -13,22 +13,6 @@
   --white: #fff;
   --orange: #b77100;
 }
-.arrow {
-  height: 100px;
-  width: 100px;
-  background: crimson;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  cursor: pointer;
-}
-.icone {
-  width: 50px;
-}
 /* ################  */
 /* Header   */
 /* ################  */
