@@ -249,32 +249,34 @@
           <div class="card-item swiper-slide">
             <img src="/assets/images/avis-01.jpg" alt="user image" class="user-image" />
             <p class="user-profession">Justinette</p>
-            <span class="message-boutton"></span>
+            <span class="message-boutton">Un service impeccable, ma maison n'a jamais été aussi propre !</span>
           </div>
           <div class="card-item swiper-slide">
             <img src="/assets/images/avis-02.jpg" alt="user image" class="user-image" />
             <p class="user-profession">Josuella Sm</p>
-            <span class="message-boutton"></span>
+            <span class="message-boutton">Équipe professionnelle et rapide, je recommande vivement !</span>
           </div>
           <div class="card-item swiper-slide">
             <img src="/assets/images/avis-03.jpg" alt="user image" class="user-image" />
             <p class="user-profession">Gloriana dasilva</p>
-            <span class="message-boutton"></span>
+            <span class="message-boutton">Un grand merci pour votre efficacité, je suis ravie du résultat !</span>
           </div>
           <div class="card-item swiper-slide">
             <img src="/assets/images/avis-04.jpg" alt="user image" class="user-image" />
             <p class="user-profession">Henock kaba</p>
-            <span class="message-boutton"></span>
+            <span class="message-boutton">Un nettoyage en profondeur qui a transformé mon espace de vie !</span>
           </div>
           <div class="card-item swiper-slide">
             <img src="/assets/images/avis-05.jpg" alt="user image" class="user-image" />
             <p class="user-profession">Daniel boxl</p>
-            <span class="message-boutton"></span>
+            <span class="message-boutton">Service fiable et de qualité, je fais appel à vous régulièrement. Le meilleur service de nettoyage
+
+            </span>
           </div>
           <div class="card-item swiper-slide">
             <img src="/assets/images/avis-06.jpg" alt="user image" class="user-image" />
             <p class="user-profession">Kelly kzd</p>
-            <span class="message-boutton"></span>
+            <span class="message-boutton">Je suis impressionnée par l'attention aux détails, un excellent travail !</span>
           </div>
         </div>
         <div class="swiper-pagination"></div>
