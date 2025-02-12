@@ -16,6 +16,7 @@
   <!-- ################  -->
   <!-- Header  -->
   <!-- ################  -->
+
   <header>
     <a href="#" class="logo">Nettoyage <span>Express</span></a>
     <ul class="navigation">
@@ -264,7 +265,7 @@
           <div class="card-item swiper-slide">
             <img src="/assets/images/avis-04.jpg" alt="user image" class="user-image" />
             <p class="user-profession">Henock kaba</p>
-            <span class="message-boutton">Un nettoyage en profondeur qui a transformé mon espace de vie !</span>
+            <span class="message-boutton">Un nettoyage en profondeur qui a transformé mon espace de vie!</span>
           </div>
           <div class="card-item swiper-slide">
             <img src="/assets/images/avis-05.jpg" alt="user image" class="user-image" />
@@ -293,7 +294,9 @@
     <div class="container">
       <footer class="py-5">
         <div class="row">
-          <div class="col-md-6"><a href="#" class="text-decoration-none text-white fs-3 mx-3">Nettoyage <span>Express</span></a></div>
+          <div class="col-md-6">
+            <a href="#" class="text-decoration-none text-white fs-3 mx-3">Nettoyage <span>Express</span></a>
+          </div>
           <div class="col-md-6">
             <a href="#" class="text-white fs-3 mx-3"><i class="fab fa-facebook"></i></a>
             <a href="#" class="text-white fs-3 mx-3"><i class="fab fa-x-twitter"></i></a>
@@ -302,8 +305,7 @@
             <a href="#" class="text-white fs-3 mx-3"><i class="fa-brands fa-instagram"></i></a>
           </div>
           <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <div class="container">
-            </div>
+            <div class="container"></div>
           </div>
           <div class="col-6 col-md-3 mb-3">
             <h5>Liens</h5>
@@ -317,13 +319,13 @@
           </div>
 
           <div class="col-6 col-md-2 mb-3">
-            <h5>services</h5>
+            <h5>Services</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Travail électrique</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Travaux de peinture</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Déplacement de meubles</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Machine à laver</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">MCuisine modulable</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Cuisine modulable</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Nettoyage de tapis</a></li>
             </ul>
           </div>
@@ -335,7 +337,7 @@
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">Email address</label>
                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn " type="button"><a href="#" class="text-decoration-none text-white">Subscribe</a></button>
+                <button class="btn" type="button"><a href="#" class="text-decoration-none text-white">Subscribe</a></button>
               </div>
             </form>
           </div>
@@ -356,8 +358,15 @@
           </ul>
         </div>
       </footer>
+
+      <!-- Bouton de redirection vers le haut -->
+      <div onclick="window.scrollTo({top: 0, behavior: 'smooth'});" style="height: 100px; width: 100px; background: crimson; border-radius: 50%; display: flex; justify-content: center; align-items: center; position: fixed; right: 20px; bottom: 20px; cursor: pointer;">
+        <img src="/assets/images/arrow-up-solid-svgrepo-com.svg" alt="Retour en haut" class="icone" style="width: 30px; height: 30px;">
+      </div>
     </div>
   </footer>
+
+
 </body>
 
 <script src="/assets/swiper/package/swiper-bundle.min.js"></script>
